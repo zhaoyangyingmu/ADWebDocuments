@@ -2,6 +2,14 @@
 
 这个小程序用于实现一个[互动教学](https://github.com/2019-web/project_mini_edu)的项目。
 
+## 项目展示
+### 小程序
+<img src="http://fitymistudio.cn/assets/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF1.png" width="30%"/><img src="http://fitymistudio.cn/assets/%E8%AF%BE%E7%A8%8B%E8%AF%A6%E6%83%851.png" width="30%"/><img src="http://fitymistudio.cn/assets/%E6%94%B6%E8%97%8F%E7%9F%A5%E8%AF%86%E7%82%B9.png" width="30%"/>
+### 后端
+<img src="https://raw.githubusercontent.com/ChenTao98/adWebBack/master/assets/%E7%99%BB%E5%BD%95.png" width="90%"/>
+<img src="https://raw.githubusercontent.com/ChenTao98/adWebBack/master/assets/%E6%B3%A8%E5%86%8C.png" width="90%"/>
+
+
 ## 项目成员
 [谢东方](https://github.com/zhaoyangyingmu)(25%)，[张健](https://github.com/DarkYoung)(26%)，[陈雷远](https://github.com/radarcly)(24%)，[陈涛](https://github.com/ChenTao98)(25%)
 
@@ -75,3 +83,23 @@
             - 建立18080和18081端口的映射。
     - 通过docker cp ./adweb_project.sql container_name:/root命令将文件复制到容器中。通过docker exec -it container_name /bin/bash进入容器，source /root/adweb_project.sql，创建数据库与表格。如果不是第一次部署，这一步可以忽略，因为之前的数据已经被持久化到db目录下。
 
+## [数据库](https://github.com/ChenTao98/adWebBack/blob/master/db/adweb_project.sql)
+
+## 功能点自检表
+|功能项 | 得分项 | 完成情况|
+| ------ | ------ | ------ |
+| 基本功能 |小程序端页面功能| 全部完成 |
+|（30分）| 教师后台页面功能 | 全部完成|
+|课程内容编排 |教师和学员之间的文本对话（以聊天记录的形式呈现），格式编排内容、头像、姓名 |全部完成|
+|（50分） |场景的创意、功能的完成度和交互的丰富程度| 合意，此项由助教评定 |
+||对话框内可以创建选择题，学生完成选择题，教师查看题目完成情况| 全部完成|
+||在浏览器端正常保存、编辑，在小程序端正常渲染 | 全部完成 |
+||学生对于课程内容的收藏、笔记等功能 | 全部完成 |
+|工程能力| 文档 | 全部完成 |
+|（30分）| 系统架构 |合意，此项由助教评定|
+||代码风格| 合意，此项由助教评定|
+||项目完整度和易用性 |合意，此项由助教评定|
+|附加功能 |模型、动画、场景的美观程度| 合意，此项由助教评定|
+|（40分）|使用 Docker 部署服务器 |全部完成|
+||将服务器部署到公有云上 |全部完成|
+||其他合理的附加功能 |1. 附加了题目解析功能 2. 学分制 3. 对话式教学可以支持图片显示 4. 知识点的重要程度，以及知识点的顺序修改和新知识点的插入 5. 实现了主题课程和课程分类 6. 实现了老师对学生学习情况的精确把控（课程、章节、小节、知识点、题目完成情况） |
