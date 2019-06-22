@@ -5,8 +5,13 @@
 ## 项目展示
 ### 小程序
 <img src="http://fitymistudio.cn/assets/%E4%B8%AA%E4%BA%BA%E4%BF%A1%E6%81%AF1.png" width="30%"/><img src="http://fitymistudio.cn/assets/%E8%AF%BE%E7%A8%8B%E8%AF%A6%E6%83%851.png" width="30%"/><img src="http://fitymistudio.cn/assets/%E6%94%B6%E8%97%8F%E7%9F%A5%E8%AF%86%E7%82%B9.png" width="30%"/>
+
+
+<img src="http://fitymistudio.cn/assets/%E8%AF%BE%E7%A8%8B.jpg" width="30%"/><img src="http://fitymistudio.cn/assets/%E8%AF%BE%E7%A8%8B%E8%AF%A6%E6%83%85.jpg" width="30%"/><img src="http://fitymistudio.cn/assets/%E4%B8%BB%E9%A2%98%E8%AF%BE%E7%A8%8B%E8%AF%A6%E6%83%85.jpg" width="30%"/>
 ### 后端
 <img src="https://raw.githubusercontent.com/ChenTao98/adWebBack/master/assets/%E7%99%BB%E5%BD%95.png" width="90%"/>
+
+
 <img src="https://raw.githubusercontent.com/ChenTao98/adWebBack/master/assets/%E6%B3%A8%E5%86%8C.png" width="90%"/>
 
 
