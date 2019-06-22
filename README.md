@@ -43,8 +43,8 @@
 
 * 教师端：
     - 项目地址： https://github.com/ChenTao98/adWebBack
-    - 说明文档地址：
-    - 用户手册地址：
+    - 说明文档地址：https://github.com/ChenTao98/adWebBack/blob/master/README.md
+    - 用户手册地址：https://github.com/ChenTao98/adWebBack/blob/master/%E6%95%99%E5%B8%88%E7%AB%AF%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
 
 ## 项目部署
 * 小程序后端访问地址： http://47.102.201.65:18081
