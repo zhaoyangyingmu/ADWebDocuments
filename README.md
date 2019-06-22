@@ -6,6 +6,15 @@
 [谢东方](https://github.com/zhaoyangyingmu)，[张健](https://github.com/DarkYoung)，[陈雷远](https://github.com/radarcly)，[陈涛](https://github.com/ChenTao98)
 
 ## 项目分工
+* 谢东方
+    - 小程序： 笔记和收藏页面，以及和后端相关api的对接。
+    - 小程序后端：笔记和收藏api，获取OpenID的api的书写。
+    - 教师端后台：登陆和注册页面以及相关流程，利用spring security机制进行保护，教师信息维护界面。
+    - 部署： 相关全部工作。
+* 张健
+* 陈涛
+* 陈雷远 
+
 
 
 ## 项目相关文档地址
@@ -18,7 +27,7 @@
 * 小程序后端：
     - 项目地址：https://github.com/ChenTao98/adWebApi
     - 说明文档地址：https://github.com/ChenTao98/adWebApi/blob/master/README.md
-    - api接口说明地址：https://www.showdoc.cc/379113643189792?page_id=2197030605969803
+    - api接口说明地址（密码：123456）：https://www.showdoc.cc/379113643189792?page_id=2197030605969803
 
 * 教师端：
     - 项目地址： https://github.com/ChenTao98/adWebBack
@@ -26,3 +35,16 @@
     - 用户手册地址：
 
 ## 项目部署
+* 小程序后端访问地址： http://47.102.201.65:18081
+* 教师端访问地址： http://47.102.201.65:18080 
+* 部署文件目录： https://github.com/ChenTao98/adWebBack/tree/master/docker
+* 部署过程：
+    - 通过windows端batch脚本上传文件到服务器
+    - 在服务器端运行脚本程序，脚本程序完成以下内容：
+        * 通过Dockerfile创建自定义镜像
+        * 关闭原有的docker容器
+        * 通过docker-compose命令，开启互连的容器（通过自定义的docker network互连，桥接网络）
+            - docker-compose中挂载当前的db目录，和static目录。前者用于数据库文件持久化，后者用来存储图片和tomcat的输出日志。
+            - 建立18080和18081端口的映射。
+    - 通过docker cp ./adweb_project.sql container_name:/root命令将文件复制到容器中。通过docker exec -it container_name /bin/bash进入容器，source /root/adweb_project.sql，创建数据库与表格。如果不是第一次部署，这一步可以忽略，因为之前的数据已经被持久化到db目录下。
+
