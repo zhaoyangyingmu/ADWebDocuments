@@ -17,10 +17,11 @@
 
 * 小程序后端：
     - 项目地址：https://github.com/ChenTao98/adWebApi
-    - 说明文档地址：  
+    - 说明文档地址：https://github.com/ChenTao98/adWebApi/blob/master/README.md
+    - api接口说明地址：https://www.showdoc.cc/379113643189792?page_id=2197030605969803
 
 * 教师端：
-    - 项目地址： 
+    - 项目地址： https://github.com/ChenTao98/adWebBack
     - 说明文档地址：
     - 用户手册地址：
 
