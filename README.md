@@ -14,7 +14,12 @@
 * 张健
 
 * 陈涛
-
+    - 教师端开发
+        * 负责生成数据库操作接口
+        * 完成教师出题页面的所有功能
+        * 完成查看学生信息页面所有功能
+    - 协助测试微信小程序
+    - 协助修改小程序后端的bug
 * 陈雷远 
     - 小程序后端开发：
         * 数据库表设计与构造
@@ -31,17 +36,17 @@
 
 ## 项目相关文档地址
 
-* 小程序：
+* [小程序](https://github.com/DarkYoung/ADCourse)
     - 项目地址： https://github.com/DarkYoung/ADCourse
     - 说明文档地址： https://github.com/DarkYoung/ADCourse/blob/master/README.md
     - 用户手册地址： https://github.com/DarkYoung/ADCourse/blob/master/%E7%94%A8%E6%88%B7%E6%89%8B%E5%86%8C.md
 
-* 小程序后端：
+* [小程序后端](https://github.com/ChenTao98/adWebApi)
     - 项目地址：https://github.com/ChenTao98/adWebApi
     - 说明文档地址：https://github.com/ChenTao98/adWebApi/blob/master/README.md
     - api接口说明地址（密码：123456）：https://www.showdoc.cc/379113643189792?page_id=2197030605969803
 
-* 教师端：
+* [教师端](https://github.com/ChenTao98/adWebBack)
     - 项目地址： https://github.com/ChenTao98/adWebBack
     - 说明文档地址：https://github.com/ChenTao98/adWebBack/blob/master/README.md
     - 用户手册地址：https://github.com/ChenTao98/adWebBack/blob/master/%E6%95%99%E5%B8%88%E7%AB%AF%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
