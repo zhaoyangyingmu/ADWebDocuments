@@ -3,15 +3,15 @@
 这个小程序用于实现一个[互动教学](https://github.com/2019-web/project_mini_edu)的项目。
 
 ## 项目成员
-[谢东方](https://github.com/zhaoyangyingmu)，[张健](https://github.com/DarkYoung)，[陈雷远](https://github.com/radarcly)，[陈涛](https://github.com/ChenTao98)
+[谢东方](https://github.com/zhaoyangyingmu)(25%)，[张健](https://github.com/DarkYoung)(26%)，[陈雷远](https://github.com/radarcly)(24%)，[陈涛](https://github.com/ChenTao98)(25%)
 
 ## 项目分工
-* 谢东方
+* 谢东方(25%)
     - 小程序： 笔记和收藏查看、添加的页面，以及和后端相关api的对接。
     - 小程序后端：参与设计数据库，笔记和收藏api，获取OpenID的api的书写，以及相关文档的书写。
     - 教师端后台：登陆和注册页面以及相关流程，利用spring security机制进行保护，教师信息维护界面。
     - 部署： 相关全部工作。
-* 张健
+* 张健(26%)
     - 开发小程序：
         * 主要包括个人信息、课程信息、课程学习模块，封装网络请求、错误处理机制
         * 定义小程序API
@@ -20,7 +20,7 @@
     - 协助设计数据库
     - 协助debug； 
 
-* 陈涛
+* 陈涛(25%)
     - 协助设计数据库
     - 教师端开发
         * 负责生成数据库操作接口（包括小程序后端项目的有关接口）
@@ -30,7 +30,7 @@
         * 编写后端项目说明
     - 协助测试微信小程序
     - 协助修改小程序后端的bug
-* 陈雷远 
+* 陈雷远(24%) 
     - 小程序后端开发：
         * 数据库表设计与构造
         * 用户相关api
