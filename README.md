@@ -75,8 +75,8 @@
     - 用户手册地址：https://github.com/ChenTao98/adWebBack/blob/master/%E6%95%99%E5%B8%88%E7%AB%AF%E4%BD%BF%E7%94%A8%E8%AF%B4%E6%98%8E.md
 
 ## 项目部署
-* 小程序后端访问地址： http://www.zhaoyangyingmu.cn:18081
-* 教师端访问地址： http://www.zhaoyangyingmu.cn:18080 
+* 小程序后端访问地址： https://www.zhaoyangyingmu.cn:18081
+* 教师端访问地址： https://www.zhaoyangyingmu.cn:18080 
 * 部署文件目录： https://github.com/ChenTao98/adWebBack/tree/master/docker
 * 部署过程：
     - 通过windows端batch脚本上传文件到服务器
